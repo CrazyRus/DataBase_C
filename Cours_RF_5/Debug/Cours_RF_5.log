@@ -1,0 +1,21 @@
+﻿Build started 17.05.2017 19:06:47.
+     1>Project "C:\Users\Руслан\Documents\Visual Studio 2013\Projects\Cours_RF_5\Cours_RF_5\Cours_RF_5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         X:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt medical_institution.cpp
+         medical_institution.cpp
+     1>c:\users\руслан\documents\visual studio 2013\projects\cours_rf_5\cours_rf_5\medical_institution.cpp(36): warning C4715: 'medical_institution::get_pib' : not all control paths return a value
+     1>c:\users\руслан\documents\visual studio 2013\projects\cours_rf_5\cours_rf_5\medical_institution.cpp(47): warning C4715: 'medical_institution::get_category' : not all control paths return a value
+     1>c:\users\руслан\documents\visual studio 2013\projects\cours_rf_5\cours_rf_5\medical_institution.cpp(58): warning C4715: 'medical_institution::get_post' : not all control paths return a value
+       Link:
+         X:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Руслан\Documents\Visual Studio 2013\Projects\Cours_RF_5\Debug\Cours_RF_5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Руслан\Documents\Visual Studio 2013\Projects\Cours_RF_5\Debug\Cours_RF_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Руслан\Documents\Visual Studio 2013\Projects\Cours_RF_5\Debug\Cours_RF_5.lib" /MACHINE:X86 Debug\clinic.obj
+         Debug\hospital.obj
+         Debug\List.obj
+         Debug\main.obj
+         Debug\medical_institution.obj
+         Debug\Menu.obj
+         Cours_RF_5.vcxproj -> C:\Users\Руслан\Documents\Visual Studio 2013\Projects\Cours_RF_5\Debug\Cours_RF_5.exe
+     1>Done Building Project "C:\Users\Руслан\Documents\Visual Studio 2013\Projects\Cours_RF_5\Cours_RF_5\Cours_RF_5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.59
